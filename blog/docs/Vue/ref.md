@@ -13,6 +13,7 @@ date: 2021-03-11
 ```
 
 结合选项式 API:
+
 ```js
 export default {
   data() {
@@ -33,7 +34,8 @@ export default {
   }
 }
 ```
-注意： 
+
+注意：
+
 * itemRefs 不必是数组：它也可以是一个对象，其 ref 会通过迭代的 key 被设置。
 * 如果需要，itemRef 也可以是响应式的且可以被监听。
-

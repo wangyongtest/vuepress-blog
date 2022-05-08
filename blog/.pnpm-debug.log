@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: inistall",
+      "code": "ENOENT",
+      "stack": "Error: not found: inistall\n    at getNotFoundError (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41689:51)\n    at Function.whichSync [as sync] (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41766:13)\n    at getCommandAbsolutePathSync (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43331:44)\n    at default_1 (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43340:32)\n    at C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:178600:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "D:\\github-project\\vuepress-blog\\blog",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: inistall",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: inistall\n    at getNotFoundError (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41689:51)\n    at Function.whichSync [as sync] (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41766:13)\n    at getCommandAbsolutePathSync (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43331:44)\n    at default_1 (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43340:32)\n    at C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:178600:39"
+    }
+  }
+}

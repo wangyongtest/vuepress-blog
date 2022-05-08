@@ -11,7 +11,9 @@ date: 2021-03-11
 * Loader 函数本身不再接收 resolve 和 reject 参数，且必须返回一个 Promise
 
 # Vue2
+
 异步组件通过返回promise对象方式创建
+
 ```js
 
 const asyncPage = () => import('./NextPage.vue')
@@ -29,8 +31,8 @@ const asyncPage = {
 }
 ```
 
-
 # Vue3
+
 在 Vue 3 中，由于函数式组件被定义为纯函数，因此异步组件的定义需要通过将其包装在新的 defineAsyncComponent 助手方法中来显式地定义：
 
 ```js
